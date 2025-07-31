@@ -1,52 +1,97 @@
 export default function VisnetaPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="bg-neutral-900 px-8 py-8">
-				<h1 className="text-2xl font-bold mb-2">Visneta</h1>
-				<div className="mb-2 text-sm text-neutral-400">
-					Junior Software Engineer | Newtown, PA (In Person) | Sep 2019 - May
-					2021
+			<main className="max-w-4xl mx-auto w-full px-4 py-12">
+				{/* Project Image */}
+				<div className="flex justify-center mb-8">
+					<img
+						src="/projects/visneta-laptop.png"
+						alt="Visneta Screenshot"
+						className="rounded-xl shadow-lg border border-neutral-800 max-w-full w-[600px]"
+					/>
 				</div>
-				<div className="mb-6 text-xs text-neutral-400">
-					Vue.js, PHP (CodeIgniter), MySQL, Figma, REST APIs
+
+				{/* Title & Subtitle */}
+				<h1 className="text-3xl font-bold mb-2">Visneta</h1>
+				<p className="text-lg text-neutral-300 mb-6">
+					Home Services Platform & Real-Time Dashboards
+				</p>
+
+				{/* Info Row */}
+				<div className="flex flex-wrap gap-8 mb-8">
+					<div>
+						<div className="text-xs uppercase text-neutral-400 mb-1">
+							Timeline
+						</div>
+						<div className="text-sm">Sep 2019 - May 2021</div>
+					</div>
+					<div>
+						<div className="text-xs uppercase text-neutral-400 mb-1">
+							Role / Context
+						</div>
+						<div className="text-sm">Junior Software Engineer</div>
+					</div>
+					<div>
+						<div className="text-xs uppercase text-neutral-400 mb-1">
+							Leveraged Skills
+						</div>
+						<div className="text-sm">
+							Vue.js, PHP (CodeIgniter), MySQL, Figma, REST APIs
+						</div>
+					</div>
 				</div>
-				<ul className="list-disc pl-6 space-y-2">
-					<li>
-						Built a Fiverr-style platform for home services using Vue.js and
-						PHP, enabling homeowners to request repairs, track progress, and
-						manage properties through real-time dashboards.
-					</li>
-					<li>
-						Developed role-specific experiences for homeowners, property
-						managers, and vendors, including live job tracking, service history
-						timelines, and work completion workflows.
-					</li>
-					<li>
-						Led a full UI/UX redesign, creating Figma mockups, presenting to
-						leadership, and executing frontend implementation for improved user
-						experience and visual identity.
-					</li>
-					<li>
-						Created a service timeline component that visually mapped key events
-						and updates per property, increasing clarity and reducing support
-						tickets.
-					</li>
-					<li>
-						Built a real-time notifications center to aggregate job updates,
-						property changes, and platform alerts, improving transparency and
-						user engagement.
-					</li>
-					<li>
-						Implemented secure authentication and account-level data access,
-						ensuring users only interacted with their linked properties and
-						services.
-					</li>
-					<li>
-						Wrote and maintained backend API endpoints and SQL queries to power
-						dynamic frontend views and user interactions across the app.
-					</li>
-				</ul>
-			</div>
+
+				{/* Problem Section */}
+				<div className="mb-6">
+					<h2 className="font-semibold text-lg mb-2 text-white">Problem</h2>
+					<p className="text-base text-neutral-300">
+						Building a scalable, user-friendly platform for home services with
+						real-time dashboards and secure authentication for multiple user
+						roles.
+					</p>
+				</div>
+
+				{/* Solution Section */}
+				<div className="mb-6">
+					<h2 className="font-semibold text-lg mb-2 text-white">Solution</h2>
+					<ul className="list-disc pl-6 space-y-2 text-neutral-300">
+						<li>
+							Built a Fiverr-style platform for home services using Vue.js and
+							PHP, enabling homeowners to request repairs, track progress, and
+							manage properties through real-time dashboards.
+						</li>
+						<li>
+							Developed role-specific experiences for homeowners, property
+							managers, and vendors, including live job tracking, service
+							history timelines, and work completion workflows.
+						</li>
+						<li>
+							Led a full UI/UX redesign, creating Figma mockups, presenting to
+							leadership, and executing frontend implementation for improved
+							user experience and visual identity.
+						</li>
+						<li>
+							Created a service timeline component that visually mapped key
+							events and updates per property, increasing clarity and reducing
+							support tickets.
+						</li>
+						<li>
+							Built a real-time notifications center to aggregate job updates,
+							property changes, and platform alerts, improving transparency and
+							user engagement.
+						</li>
+						<li>
+							Implemented secure authentication and account-level data access,
+							ensuring users only interacted with their linked properties and
+							services.
+						</li>
+						<li>
+							Wrote and maintained backend API endpoints and SQL queries to
+							power dynamic frontend views and user interactions across the app.
+						</li>
+					</ul>
+				</div>
+			</main>
 		</div>
 	);
 }
