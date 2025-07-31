@@ -1,15 +1,19 @@
+import Image from "next/image";
+
 export default function SSNCPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<main className="max-w-4xl mx-auto w-full px-4 py-12">
+			<div className="flex justify-center">
+				<Image
+					className="w-full max-h-[700px] object-cover object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/toolkit-login-full.png"
+					alt="Toolkit Login UI"
+					width={1228}
+					height={768}
+				/>
+			</div>
+			<main className="w-full px-20 py-16 bg-neutral-900">
 				{/* Project Image */}
-				<div className="flex justify-center mb-8">
-					<img
-						src="/projects/ssnc-laptop.png"
-						alt="SS&C Technologies Toolkit Screenshot"
-						className="rounded-xl shadow-lg border border-neutral-800 max-w-full w-[600px]"
-					/>
-				</div>
 
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">SS&C Technologies</h1>
