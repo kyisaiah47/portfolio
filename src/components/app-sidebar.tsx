@@ -9,24 +9,10 @@ import {
 	SidebarMenu,
 	SidebarMenuItem,
 	SidebarMenuButton,
-	SidebarMenuAction,
 	SidebarSeparator,
-	SidebarMenuBadge,
 } from "@/components/ui/sidebar";
 import Image from "next/image";
-import {
-	Home,
-	Twitter,
-	SquareStack,
-	MessageSquare,
-	FlaskConical,
-	Circle,
-	Mail,
-	Linkedin,
-	FileText,
-	ExternalLink,
-	User2,
-} from "lucide-react";
+import { User2, ExternalLink } from "lucide-react";
 
 export function AppSidebar() {
 	return (
@@ -70,38 +56,34 @@ export function AppSidebar() {
 				</SidebarGroup>
 				<SidebarSeparator />
 				<SidebarGroup>
-					<SidebarGroupLabel>Interface</SidebarGroupLabel>
+					<SidebarGroupLabel>Experience</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#twitter">
-										<Twitter className="mr-2" />
-										<span>X (Twitter)</span>
+									<a href="/ssnc">
+										<span>SS&C Technologies</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#forge">
-										<SquareStack className="mr-2" />
-										<span>Forge</span>
+									<a href="/capital-technology-group">
+										<span>Capital Technology Group</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#careerchat">
-										<MessageSquare className="mr-2" />
-										<span>CareerChat</span>
+									<a href="/no-name-charli">
+										<span>No Name Charli</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#moraltester">
-										<SquareStack className="mr-2" />
-										<span>Moral Tester</span>
+									<a href="/visneta">
+										<span>Visneta</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
@@ -110,36 +92,20 @@ export function AppSidebar() {
 				</SidebarGroup>
 				<SidebarSeparator />
 				<SidebarGroup>
-					<SidebarGroupLabel>Design Engineering</SidebarGroupLabel>
+					<SidebarGroupLabel>Hackathons</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#interfacelab">
-										<FlaskConical className="mr-2" />
-										<span>Interface Lab</span>
+									<a href="/qloo-hackathon">
+										<span>Qloo LLM Hackathon</span>
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
-						</SidebarMenu>
-					</SidebarGroupContent>
-				</SidebarGroup>
-				<SidebarSeparator />
-				<SidebarGroup>
-					<SidebarGroupLabel>Side Projects</SidebarGroupLabel>
-					<SidebarGroupContent>
-						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a
-										href="#goznuk"
-										className="opacity-50"
-									>
-										<Circle className="mr-2" />
-										<span>Goznuk(wip)</span>
+									<a href="/hackfs-2022">
+										<span>HackFS 2022</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
@@ -153,58 +119,58 @@ export function AppSidebar() {
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="mailto:george@example.com">
-										<Mail className="mr-2" />
+									<a
+										href="mailto:george@example.com"
+										className="flex items-center gap-2"
+									>
 										<span>Email</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="https://linkedin.com">
-										<Linkedin className="mr-2" />
+									<a
+										href="https://linkedin.com"
+										className="flex items-center gap-2"
+									>
 										<span>LinkedIn</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#x">
-										<Twitter className="mr-2" />
+									<a
+										href="#x"
+										className="flex items-center gap-2"
+									>
 										<span>X</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="https://read.cv">
-										<FileText className="mr-2" />
+									<a
+										href="https://read.cv"
+										className="flex items-center gap-2"
+									>
 										<span>Read.cv</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/resume.pdf">
-										<FileText className="mr-2" />
+									<a
+										href="/resume.pdf"
+										className="flex items-center gap-2"
+									>
 										<span>Resume</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
 								</SidebarMenuButton>
-								<SidebarMenuAction>
-									<ExternalLink className="ml-1" />
-								</SidebarMenuAction>
 							</SidebarMenuItem>
 						</SidebarMenu>
 					</SidebarGroupContent>
