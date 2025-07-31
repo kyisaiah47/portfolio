@@ -4,9 +4,9 @@ import { ChevronRight } from "lucide-react";
 
 export default function Home() {
 	return (
-		<div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-			<div className="bg-neutral-900 px-8 py-6 flex items-center justify-between w-full">
-				<div className="flex items-center gap-2 text-white text-sm">
+		<div className="bg-neutral-950 font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+			<div className="bg-neutral-900 px-0 py-6 flex items-center justify-between w-full">
+				<div className="flex items-center gap-2 text-white text-sm px-8">
 					<Link
 						href="/"
 						className="hover:underline flex items-center gap-1"
@@ -23,7 +23,7 @@ export default function Home() {
 				</div>
 				<Link
 					href="#"
-					className="text-neutral-400 text-xs flex items-center gap-1"
+					className="text-neutral-400 text-xs flex items-center gap-1 px-8"
 				>
 					<svg
 						width="16"

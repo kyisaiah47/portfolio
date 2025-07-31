@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function XInternshipPage() {
 	return (
-		<div className="flex flex-col min-h-screen bg-black">
+		<div className="flex flex-col min-h-screen bg-neutral-950">
 			<div className="flex-1 flex items-center justify-center">
 				<Image
 					src="/x-logo.png"
@@ -11,11 +11,11 @@ export default function XInternshipPage() {
 					height={160}
 				/>
 			</div>
-			<div className="bg-neutral-900 px-8 py-8">
-				<h1 className="text-2xl font-bold text-white mb-4">
+			<div className="bg-neutral-900 px-0 py-8 w-full">
+				<h1 className="text-2xl font-bold text-white mb-4 px-8">
 					X Product Design Internship
 				</h1>
-				<div className="flex flex-col md:flex-row md:justify-between gap-6 text-white">
+				<div className="flex flex-col md:flex-row md:justify-between gap-6 text-white px-8">
 					<div>
 						<div className="flex items-center gap-2 mb-1 text-sm font-medium">
 							<svg
