@@ -26,7 +26,7 @@ export function AppSidebar() {
 						>
 							<a href="#">
 								<User2 className="mr-2" />
-								<span className="font-bold">George Kim</span>
+								<span className="font-bold">Isaiah Kim</span>
 							</a>
 						</SidebarMenuButton>
 					</SidebarMenuItem>
@@ -120,7 +120,7 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
-										href="mailto:george@example.com"
+										href="mailto:Isaiah@example.com"
 										className="flex items-center gap-2"
 									>
 										<span>Email</span>
@@ -142,28 +142,6 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
-										href="#x"
-										className="flex items-center gap-2"
-									>
-										<span>X</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
-										href="https://read.cv"
-										className="flex items-center gap-2"
-									>
-										<span>Read.cv</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
 										href="/resume.pdf"
 										className="flex items-center gap-2"
 									>
@@ -178,7 +156,7 @@ export function AppSidebar() {
 			</SidebarContent>
 			<SidebarFooter>
 				<div className="mt-auto text-xs text-muted-foreground">
-					© George Kim, 2025
+					© Isaiah Kim, 2025
 				</div>
 			</SidebarFooter>
 		</Sidebar>
