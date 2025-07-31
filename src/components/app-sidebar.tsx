@@ -11,8 +11,16 @@ import {
 	SidebarMenuButton,
 	SidebarSeparator,
 } from "@/components/ui/sidebar";
-import Image from "next/image";
-import { User2, ExternalLink } from "lucide-react";
+import {
+	User2,
+	ExternalLink,
+	CircleUser,
+	AtSign,
+	Linkedin,
+	Paperclip,
+	BrainCircuit,
+	Briefcase,
+} from "lucide-react";
 
 export function AppSidebar() {
 	return (
@@ -40,13 +48,7 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a href="#about">
-										<Image
-											src="/avatar.png"
-											alt="Avatar"
-											width={20}
-											height={20}
-											className="rounded-full mr-2"
-										/>
+										<CircleUser />
 										<span>About</span>
 									</a>
 								</SidebarMenuButton>
@@ -61,28 +63,44 @@ export function AppSidebar() {
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/ssnc">
+									<a
+										href="/ssnc"
+										className="flex items-center gap-2"
+									>
+										<Briefcase />
 										<span>SS&C Technologies</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/capital-technology-group">
+									<a
+										href="/capital-technology-group"
+										className="flex items-center gap-2"
+									>
+										<Briefcase />
 										<span>Capital Technology Group</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/no-name-charli">
+									<a
+										href="/no-name-charli"
+										className="flex items-center gap-2"
+									>
+										<Briefcase />
 										<span>No Name Charli</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/visneta">
+									<a
+										href="/visneta"
+										className="flex items-center gap-2"
+									>
+										<Briefcase />
 										<span>Visneta</span>
 									</a>
 								</SidebarMenuButton>
@@ -97,14 +115,22 @@ export function AppSidebar() {
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/qloo-hackathon">
+									<a
+										href="/qloo-hackathon"
+										className="flex items-center gap-2"
+									>
+										<BrainCircuit />
 										<span>Qloo LLM Hackathon</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="/hackfs-2022">
+									<a
+										href="/hackfs-2022"
+										className="flex items-center gap-2"
+									>
+										<BrainCircuit />
 										<span>HackFS 2022</span>
 									</a>
 								</SidebarMenuButton>
@@ -120,9 +146,10 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
-										href="mailto:Isaiah@example.com"
+										href="mailto:kyisaiah47@gmail.com"
 										className="flex items-center gap-2"
 									>
+										<AtSign />
 										<span>Email</span>
 										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
@@ -131,9 +158,10 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
-										href="https://linkedin.com"
+										href="https://www.linkedin.com/in/kyisaiah47"
 										className="flex items-center gap-2"
 									>
+										<Linkedin />
 										<span>LinkedIn</span>
 										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
@@ -142,9 +170,10 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
-										href="/resume.pdf"
+										href="https://standardresume.co/r/kyisaiah"
 										className="flex items-center gap-2"
 									>
+										<Paperclip />
 										<span>Resume</span>
 										<ExternalLink className="w-3 h-3 text-muted-foreground" />
 									</a>
