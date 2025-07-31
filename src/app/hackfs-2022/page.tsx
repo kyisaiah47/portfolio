@@ -1,19 +1,22 @@
+import Image from "next/image";
+
 export default function HackFS2022Page() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<main className="max-w-4xl mx-auto w-full px-4 py-12">
-				{/* Project Image */}
-				<div className="flex justify-center mb-8">
-					<img
-						src="/projects/hackfs-laptop.png"
-						alt="HackFS 2022 Split Protocol Screenshot"
-						className="rounded-xl shadow-lg border border-neutral-800 max-w-full w-[600px]"
-					/>
-				</div>
+			<div className="flex justify-center bg-black">
+				<Image
+					className="w-full max-h-[700px] object-scale-down object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/screely-1754004063748.png"
+					alt="KindredAI Screenshot"
+					width={1228}
+					height={768}
+				/>
+			</div>
 
+			<main className="w-full px-20 py-16 bg-neutral-900">
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">
-					HackFS 2022 (ETHGlobal): Split Protocol
+					🏆🥈 HackFS 2022 (ETHGlobal): Split Protocol
 				</h1>
 				<p className="text-lg text-neutral-300 mb-6">
 					DeFi protocol for decentralized shared expense management

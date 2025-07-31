@@ -3,7 +3,7 @@ export default function NoNameCharliPage() {
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
 			<main className="max-w-4xl mx-auto w-full px-4 py-12">
 				{/* Project Image */}
-				<div className="flex justify-center mb-8">
+				<div className="flex justify-center  bg-blackmb-8">
 					<img
 						src="/projects/no-name-charli-laptop.png"
 						alt="No Name Charli Screenshot"

@@ -20,6 +20,13 @@ import {
 	Paperclip,
 	BrainCircuit,
 	Briefcase,
+	Sprout,
+	Building2,
+	Landmark,
+	Construction,
+	Images,
+	IdCardLanyard,
+	PiggyBank,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -67,7 +74,8 @@ export function AppSidebar() {
 										href="/ssnc"
 										className="flex items-center gap-2"
 									>
-										<Briefcase />
+										<Building2 />
+										<PiggyBank />
 										<span>SS&C Technologies</span>
 									</a>
 								</SidebarMenuButton>
@@ -78,7 +86,8 @@ export function AppSidebar() {
 										href="/capital-technology-group"
 										className="flex items-center gap-2"
 									>
-										<Briefcase />
+										<Landmark />
+										<IdCardLanyard />
 										<span>Capital Technology Group</span>
 									</a>
 								</SidebarMenuButton>
@@ -89,7 +98,8 @@ export function AppSidebar() {
 										href="/no-name-charli"
 										className="flex items-center gap-2"
 									>
-										<Briefcase />
+										<Sprout />
+										<Images />
 										<span>No Name Charli</span>
 									</a>
 								</SidebarMenuButton>
@@ -100,7 +110,8 @@ export function AppSidebar() {
 										href="/visneta"
 										className="flex items-center gap-2"
 									>
-										<Briefcase />
+										<Sprout />
+										<Construction />
 										<span>Visneta</span>
 									</a>
 								</SidebarMenuButton>
@@ -130,8 +141,8 @@ export function AppSidebar() {
 										href="/hackfs-2022"
 										className="flex items-center gap-2"
 									>
-										<BrainCircuit />
-										<span>HackFS 2022</span>
+										{/* <BrainCircuit /> */}
+										<span>🏆🥈 HackFS 2022</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>

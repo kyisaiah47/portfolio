@@ -3,7 +3,7 @@ export default function CTGPage() {
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
 			<main className="max-w-4xl mx-auto w-full px-4 py-12">
 				{/* Project Image */}
-				<div className="flex justify-center mb-8">
+				<div className="flex justify-center  bg-blackmb-8">
 					<img
 						src="/projects/ctg-laptop.png"
 						alt="Capital Technology Group Screenshot"
