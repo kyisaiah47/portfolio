@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function NoNameCharliPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex bg-black p-5">
+			<div className="flex bg-black p-20">
 				<Image
-					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/mint"
+					className="w-full max-h-[600px] object-scale-down object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/nnc%20opensea"
 					alt="KindredAI Screenshot"
 					width={1228}
 					height={768}
