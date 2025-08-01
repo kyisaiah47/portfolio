@@ -19,7 +19,6 @@ import {
 	Linkedin,
 	Paperclip,
 	BrainCircuit,
-	Briefcase,
 	Sprout,
 	Building2,
 	Landmark,
@@ -29,8 +28,8 @@ import {
 	PiggyBank,
 	Trophy,
 	Medal,
-	Loader,
 	UsersRound,
+	Github,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -39,11 +38,8 @@ export function AppSidebar() {
 			<SidebarHeader>
 				<SidebarMenu>
 					<SidebarMenuItem>
-						<SidebarMenuButton
-							asChild
-							isActive
-						>
-							<a href="#">
+						<SidebarMenuButton asChild>
+							<a>
 								<User2 className="mr-2" />
 								<span className="font-bold">Isaiah Kim</span>
 							</a>
@@ -58,7 +54,7 @@ export function AppSidebar() {
 						<SidebarMenu>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
-									<a href="#about">
+									<a href="/about">
 										<CircleUser />
 										<span>About</span>
 									</a>
@@ -92,7 +88,7 @@ export function AppSidebar() {
 									>
 										<Landmark />
 										<IdCardLanyard />
-										<span>Capital Technology Group</span>
+										<span>US Immigration (via Capital Technology Group)</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
@@ -163,6 +159,7 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
+										target="_blank"
 										href="mailto:kyisaiah47@gmail.com"
 										className="flex items-center gap-2"
 									>
@@ -175,6 +172,7 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
+										target="_blank"
 										href="https://www.linkedin.com/in/kyisaiah47"
 										className="flex items-center gap-2"
 									>
@@ -187,6 +185,20 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
+										target="_blank"
+										href="https://github.com/kyisaiah47"
+										className="flex items-center gap-2"
+									>
+										<Github />
+										<span>GitHub</span>
+										<ExternalLink className="w-3 h-3 text-muted-foreground" />
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a
+										target="_blank"
 										href="https://standardresume.co/r/kyisaiah"
 										className="flex items-center gap-2"
 									>

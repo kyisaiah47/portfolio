@@ -1,3 +1,5 @@
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Github, Globe } from "lucide-react";
 import Image from "next/image";
 
 export default function QlooHackathonPage() {
@@ -14,7 +16,41 @@ export default function QlooHackathonPage() {
 			</div>
 
 			<main className="w-full px-20 py-16 bg-neutral-900">
-				{/* Project Image */}
+				<div className="flex flex-wrap gap-4 mb-4">
+					<Badge
+						variant="secondary"
+						className="bg-blue-500 text-white dark:bg-blue-600"
+					>
+						<Globe />
+						<a
+							href="https://kindredai.vercel.app/"
+							target="_blank"
+						>
+							Live Demo
+						</a>
+					</Badge>
+					<Badge
+						variant="secondary"
+						className="bg-blue-500 text-white dark:bg-blue-600"
+					>
+						<ExternalLink />
+						<a
+							href="https://devpost.com/software/kindredai"
+							target="_blank"
+						>
+							Devpost Link
+						</a>
+					</Badge>
+					<Badge variant="secondary">
+						<Github />
+						<a
+							href="https://github.com/kyisaiah47/qloo-profile-app"
+							target="_blank"
+						>
+							GitHub Repo
+						</a>
+					</Badge>
+				</div>
 
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">

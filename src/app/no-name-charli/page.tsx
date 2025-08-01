@@ -1,3 +1,5 @@
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Figma } from "lucide-react";
 import Image from "next/image";
 
 export default function NoNameCharliPage() {
@@ -14,6 +16,32 @@ export default function NoNameCharliPage() {
 			</div>
 
 			<main className="w-full px-20 py-16 bg-neutral-900">
+				<div className="flex flex-wrap gap-4 mb-4">
+					<Badge
+						variant="secondary"
+						className="bg-blue-500 text-white dark:bg-blue-600"
+					>
+						<Figma />
+						<a
+							href="https://www.figma.com/design/QZd1rJo2jtvsMkA2nTVWzH/No-Name-Charli?m=auto&t=smh83fAU8zKVZ4sB-6"
+							target="_blank"
+						>
+							Figma Mockups
+						</a>
+					</Badge>
+					<Badge
+						variant="secondary"
+						className="bg-blue-500 text-white dark:bg-blue-600"
+					>
+						<ExternalLink />
+						<a
+							href="https://opensea.io/collection/nonamecharli"
+							target="_blank"
+						>
+							OpenSea Collection
+						</a>
+					</Badge>
+				</div>
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">No Name Charli</h1>
 				<p className="text-lg text-neutral-300 mb-6">

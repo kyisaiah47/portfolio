@@ -1,3 +1,5 @@
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Github } from "lucide-react";
 import Image from "next/image";
 
 export default function HackFS2022Page() {
@@ -14,6 +16,31 @@ export default function HackFS2022Page() {
 			</div>
 
 			<main className="w-full px-20 py-16 bg-neutral-900">
+				<Badge
+					variant="secondary"
+					className="bg-blue-500 text-white dark:bg-blue-600 mb-4"
+				>
+					<ExternalLink />
+					<a
+						href="https://ethglobal.com/showcase/split-protocol-h6r1a"
+						target="_blank"
+					>
+						ETHGlobal Link
+					</a>
+				</Badge>
+				<Badge
+					variant="secondary"
+					className="mb-4 ml-4"
+				>
+					<Github />
+					<a
+						href="https://github.com/kyisaiah47/Split-Protocol"
+						target="_blank"
+					>
+						GitHub Repo
+					</a>
+				</Badge>
+
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">
 					🏆🥈 HackFS 2022 (ETHGlobal): Split Protocol
@@ -21,7 +48,6 @@ export default function HackFS2022Page() {
 				<p className="text-lg text-neutral-300 mb-6">
 					DeFi protocol for decentralized shared expense management
 				</p>
-
 				{/* Info Row */}
 				<div className="flex flex-wrap gap-8 mb-8">
 					<div>
@@ -45,7 +71,6 @@ export default function HackFS2022Page() {
 						</div>
 					</div>
 				</div>
-
 				{/* Problem Section */}
 				<div className="mb-6">
 					<h2 className="font-semibold text-lg mb-2 text-white">Problem</h2>
@@ -55,26 +80,14 @@ export default function HackFS2022Page() {
 						decentralized management.
 					</p>
 				</div>
-
 				{/* Solution Section */}
 				<div className="mb-6">
 					<h2 className="font-semibold text-lg mb-2 text-white">Solution</h2>
-					<ul className="list-disc pl-6 space-y-2 text-neutral-300">
-						<li>
-							Built a DeFi protocol enabling users to split shared expenses and
-							contribute in any token, while ensuring the recipient receives a
-							single, preferred-token payout.
-						</li>
-						<li>
-							<a
-								href="https://ethglobal.com/showcase/split-protocol-h6r1a"
-								target="_blank"
-								className="underline text-blue-400"
-							>
-								Project Link
-							</a>
-						</li>
-					</ul>
+					<p className="text-base text-neutral-300">
+						Built a DeFi protocol enabling users to split shared expenses and
+						contribute in any token, while ensuring the recipient receives a
+						single, preferred-token payout.
+					</p>
 				</div>
 			</main>
 		</div>

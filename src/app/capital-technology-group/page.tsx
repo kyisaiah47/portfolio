@@ -3,19 +3,21 @@ import Image from "next/image";
 export default function CTGPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-black">
+			<div className="flex justify-center bg-white p-60">
 				<Image
-					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/ctg"
+					className="w-full max-h-[300px] object-cover object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/USCIS_Signature_Preferred_FC.png"
 					alt="Capital Technology Group Logo"
-					width={1228}
-					height={768}
+					width={800}
+					height={200}
 				/>
 			</div>
 
 			<main className="w-full px-20 py-16 bg-neutral-900">
 				{/* Title & Subtitle */}
-				<h1 className="text-3xl font-bold mb-2">Capital Technology Group</h1>
+				<h1 className="text-3xl font-bold mb-2">
+					US Immigration (via Capital Technology Group)
+				</h1>
 				<p className="text-lg text-neutral-300 mb-6">
 					USCIS Immigration Platform Modernization
 				</p>
