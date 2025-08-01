@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function DeepCutHackathonPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center">
+			<div className="flex justify-center p-10">
 				<Image
-					className="w-full max-h-[700px] object-cover object-center"
+					className="w-full max-h-[650px] object-cover object-center"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/kiro"
 					alt="Deep Cut Screenshot"
 					width={1228}

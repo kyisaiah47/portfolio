@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function QlooHackathonPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center">
+			<div className="flex justify-center p-20 bg-[#000]">
 				<Image
-					className="w-full max-h-[700px] object-cover object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/Frame%202%20%283%29.png"
+					className="w-full max-h-[600px] object-scale-down object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/screely-1754025759797.png"
 					alt="KindredAI Screenshot"
 					width={1228}
 					height={768}
