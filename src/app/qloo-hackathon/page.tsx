@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function QlooHackathonPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center items-center  bg-black">
+			<div className="flex justify-center items-center p-20 bg-black">
 				<Image
-					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/kindredAI"
+					className="w-full max-h-[550px] object-scale-down object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/MacBook%20Pro%2016_%20-%2020.png"
 					alt="KindredAI Screenshot"
 					width={1228}
 					height={768}
@@ -54,21 +54,7 @@ export default function QlooHackathonPage() {
 
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">
-					<a
-						href="https://www.qloo.com/"
-						target="_blank"
-						className="underline text-blue-400"
-					>
-						Qloo
-					</a>{" "}
-					LLM Hackathon:{" "}
-					<a
-						className="underline text-blue-400"
-						href="https://kindredai.vercel.app/"
-						target="_blank"
-					>
-						KindredAI
-					</a>
+					Qloo LLM Hackathon: KindredAI
 				</h1>
 				<p className="text-lg text-neutral-300 mb-6">
 					Taste Graph-Based Matching Platform
@@ -129,15 +115,6 @@ export default function QlooHackathonPage() {
 						<li>
 							Used Gemini to generate compatibility summaries and handle API
 							fallback logic gracefully.
-						</li>
-						<li>
-							<a
-								href="https://kindredai.vercel.app/"
-								target="_blank"
-								className="underline text-blue-400"
-							>
-								Project Link
-							</a>
 						</li>
 					</ul>
 				</div>

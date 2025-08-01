@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function CTGPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-white p-60">
+			<div className="flex justify-center bg-white p-80">
 				<Image
-					className="w-full max-h-[300px] object-cover object-center"
+					className="w-[400px]"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/USCIS_Signature_Preferred_FC.png"
 					alt="Capital Technology Group Logo"
-					width={800}
-					height={200}
+					width={1000}
+					height={1000}
 				/>
 			</div>
 

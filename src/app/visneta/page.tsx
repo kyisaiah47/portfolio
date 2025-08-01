@@ -6,7 +6,7 @@ export default function VisnetaPage() {
 			<div className="flex bg-black p-5">
 				<Image
 					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/landing%202.png"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/visneta-1"
 					alt="KindredAI Screenshot"
 					width={1228}
 					height={768}
