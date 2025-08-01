@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
+import { AtSign, MapPinned, Phone } from "lucide-react";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -35,7 +36,18 @@ export default function RootLayout({
 				<SidebarProvider>
 					<AppSidebar />
 					<main className="w-full">
-						<SidebarTrigger />
+						<div className="flex items-center justify-between px-4 py-2 border-b border-neutral-800">
+							<SidebarTrigger />
+
+							<div className="flex items-center gap-4 text-xs">
+								<a className="flex items-center gap-2">
+									<MapPinned className="h-4 w-4" /> New York, NY
+								</a>
+								<a className="flex items-center gap-2">
+									<AtSign className="h-4 w-4" /> kyisaiah47@gmail.com
+								</a>
+							</div>
+						</div>
 						{children}
 					</main>
 				</SidebarProvider>
