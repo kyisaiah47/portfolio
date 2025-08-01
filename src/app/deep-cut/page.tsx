@@ -105,8 +105,8 @@ export default function DeepCutHackathonPage() {
 							where players compete in absurd, themed rounds of judgment.
 						</li>
 						<li>
-							Players choose or enter a theme (e.g., "Daddy Issues & Deli
-							Meats") which shapes the vibe and prompts for the session.
+							Players choose or enter a theme (e.g., &quot;Daddy Issues & Deli
+							Meats&quot;) which shapes the vibe and prompts for the session.
 						</li>
 						<li>
 							Game mechanics (room codes, voting, win logic) were scaffolded
