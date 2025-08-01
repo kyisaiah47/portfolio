@@ -1,5 +1,11 @@
 // components/AboutHero.tsx
-import { IdCardLanyard, MapPinned, PiggyBank, Sprout } from "lucide-react";
+import {
+	AtSign,
+	IdCardLanyard,
+	MapPinned,
+	PiggyBank,
+	Sprout,
+} from "lucide-react";
 import Image from "next/image";
 
 export default function About() {
@@ -31,6 +37,9 @@ export default function About() {
 						<div className="flex items-center gap-4 mt-2 text-white/50 text-sm">
 							<div className="flex items-center gap-1">
 								<MapPinned /> New York, NY
+							</div>
+							<div className="flex items-center gap-1">
+								<AtSign /> kyisaiah47@gmail.com
 							</div>
 						</div>
 					</div>
