@@ -18,7 +18,6 @@ import {
 	AtSign,
 	Linkedin,
 	Paperclip,
-	BrainCircuit,
 	Sprout,
 	Building2,
 	Landmark,
@@ -31,6 +30,7 @@ import {
 	UsersRound,
 	Github,
 	Ghost,
+	Brain,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -131,7 +131,7 @@ export function AppSidebar() {
 										href="/deep-cut"
 										className="flex items-center gap-2"
 									>
-										<BrainCircuit />
+										<Brain />
 										<Ghost />
 										<span>Code with Kiro Hackathon</span>
 									</a>
@@ -143,7 +143,7 @@ export function AppSidebar() {
 										href="/qloo-hackathon"
 										className="flex items-center gap-2"
 									>
-										<BrainCircuit />
+										<Brain />
 										<UsersRound />
 										<span>Qloo LLM Hackathon</span>
 									</a>
