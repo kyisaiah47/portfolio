@@ -27,6 +27,10 @@ import {
 	Images,
 	IdCardLanyard,
 	PiggyBank,
+	Trophy,
+	Medal,
+	Loader,
+	UsersRound,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -131,6 +135,7 @@ export function AppSidebar() {
 										className="flex items-center gap-2"
 									>
 										<BrainCircuit />
+										<UsersRound />
 										<span>Qloo LLM Hackathon</span>
 									</a>
 								</SidebarMenuButton>
@@ -141,8 +146,9 @@ export function AppSidebar() {
 										href="/hackfs-2022"
 										className="flex items-center gap-2"
 									>
-										{/* <BrainCircuit /> */}
-										<span>🏆🥈 HackFS 2022</span>
+										<Trophy />
+										<Medal />
+										<span>HackFS 2022</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>

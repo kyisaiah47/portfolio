@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function QlooHackathonPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-black">
+			<div className="flex justify-center items-center  bg-black">
 				<Image
 					className="w-full max-h-[700px] object-scale-down object-center"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/kindredAI"
@@ -18,7 +18,21 @@ export default function QlooHackathonPage() {
 
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">
-					Qloo LLM Hackathon: KindredAI
+					<a
+						href="https://www.qloo.com/"
+						target="_blank"
+						className="underline text-blue-400"
+					>
+						Qloo
+					</a>{" "}
+					LLM Hackathon:{" "}
+					<a
+						className="underline text-blue-400"
+						href="https://kindredai.vercel.app/"
+						target="_blank"
+					>
+						KindredAI
+					</a>
 				</h1>
 				<p className="text-lg text-neutral-300 mb-6">
 					Taste Graph-Based Matching Platform

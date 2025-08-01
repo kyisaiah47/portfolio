@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SSNCPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center">
+			<div className="flex justify-center p-5">
 				<Image
 					className="w-full max-h-[700px] object-scale-down object-center"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/ssnc-logo"
