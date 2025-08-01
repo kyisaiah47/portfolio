@@ -79,8 +79,8 @@ export default function DeepCutHackathonPage() {
 							Leveraged Skills
 						</div>
 						<div className="text-sm">
-							Next.js, React, TailwindCSS, shadcn/ui, framer-motion, Zustand,
-							Kiro IDE, multiplayer logic, game design
+							Next.js, React, TailwindCSS, shadcn/ui, framer-motion, Supabase,
+							Gemini API, Kiro IDE, multiplayer logic, game design
 						</div>
 					</div>
 				</div>
@@ -119,6 +119,11 @@ export default function DeepCutHackathonPage() {
 						<li>
 							Kiro was used to generate game state logic, disconnection
 							handling, and eerie microcopy like “Enter the Abyss.”
+						</li>
+						<li>
+							Gemini AI was used to: Generate all card decks based on the
+							selected theme and power the random theme generator (“I’m feeling
+							chaotic”)
 						</li>
 					</ul>
 				</div>
