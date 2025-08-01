@@ -14,7 +14,7 @@ export default function About() {
 		<section className="bg-neutral-900 text-white min-h-screen py-16 px-6 md:px-12">
 			<div className="mx-auto">
 				{/* Profile */}
-				<div className="flex flex-col items-start gap-4">
+				<div className="flex items-start gap-4">
 					<Image
 						src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/propic" // Replace with actual path
 						alt="Profile"
