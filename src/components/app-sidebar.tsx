@@ -30,6 +30,7 @@ import {
 	Medal,
 	UsersRound,
 	Github,
+	Ghost,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -124,6 +125,18 @@ export function AppSidebar() {
 					<SidebarGroupLabel>Hackathons</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a
+										href="/deep-cut"
+										className="flex items-center gap-2"
+									>
+										<BrainCircuit />
+										<Ghost />
+										<span>Code with Kiro Hackathon</span>
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
