@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function VisnetaPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex bg-black p-5">
+			<div className="flex justify-center">
 				<Image
-					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/visneta-1"
+					className="w-full max-h-[700px] object-cover object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/Frame%201.png"
 					alt="KindredAI Screenshot"
 					width={1228}
 					height={768}
