@@ -8,7 +8,7 @@ export default function DeepCutHackathonPage() {
 			<div className="flex justify-center">
 				<Image
 					className="w-full max-h-[700px] object-cover object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/Frame%203.png"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/kiro"
 					alt="Deep Cut Screenshot"
 					width={1228}
 					height={768}
@@ -19,7 +19,7 @@ export default function DeepCutHackathonPage() {
 				<div className="flex flex-wrap gap-4 mb-4">
 					<Badge
 						variant="secondary"
-						className="bg-pink-500 text-white dark:bg-pink-600"
+						className="bg-blue-500 text-white dark:bg-blue-600"
 					>
 						<Globe />
 						<a
@@ -31,7 +31,7 @@ export default function DeepCutHackathonPage() {
 					</Badge>
 					<Badge
 						variant="secondary"
-						className="bg-pink-500 text-white dark:bg-pink-600"
+						className="bg-blue-500 text-white dark:bg-blue-600"
 					>
 						<ExternalLink />
 						<a
