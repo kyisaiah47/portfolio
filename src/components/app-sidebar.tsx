@@ -31,6 +31,9 @@ import {
 	Github,
 	Ghost,
 	Brain,
+	Loader,
+	LayoutDashboard,
+	Smartphone,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -125,6 +128,27 @@ export function AppSidebar() {
 					<SidebarGroupLabel>Hackathons</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a
+										href="/sonder"
+										className="flex items-center gap-2"
+									>
+										<Loader />
+										<Smartphone />
+										<span>RevenueCat Shipaton 2025</span>
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a className="flex items-center gap-2 text-gray-500 cursor-not-allowed">
+										<Loader />
+										<LayoutDashboard />
+										<span>Tableau Next Virtual Hackathon</span>
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<a
