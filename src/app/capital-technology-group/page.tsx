@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function CTGPage() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-white p-80">
+			<div className="flex justify-center bg-white p-4 sm:p-10 md:p-20 lg:p-40 xl:p-60 2xl:p-80">
 				<Image
 					className="w-[400px]"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/USCIS_Signature_Preferred_FC.png"
