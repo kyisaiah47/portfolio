@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
-import { AtSign, MapPinned, Phone } from "lucide-react";
+import { AtSign, MapPinned } from "lucide-react";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",

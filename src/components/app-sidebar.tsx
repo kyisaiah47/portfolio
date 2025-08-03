@@ -31,10 +31,8 @@ import {
 	Github,
 	Ghost,
 	Brain,
-	Loader,
 	LayoutDashboard,
 	Smartphone,
-	HeartPlus,
 	ChartNoAxesCombined,
 	BanknoteArrowUp,
 	BookA,
@@ -142,6 +140,18 @@ export function AppSidebar() {
 										<BookA />
 										<FolderCode />
 										<span>Storybook Components</span>
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a
+										href="/opensource"
+										className="flex items-center gap-2"
+									>
+										<Github />
+										<FolderCode />
+										<span>Open Source Contributions</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
