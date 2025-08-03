@@ -12,7 +12,7 @@ export default function SSNCPage() {
 					height={768}
 				/>
 			</div>
-			<main className="w-full px-20 py-16 bg-neutral-900">
+			<main className="w-full px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-neutral-900">
 				{/* Project Image */}
 
 				{/* Title & Subtitle */}

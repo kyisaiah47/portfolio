@@ -15,7 +15,7 @@ export default function HackFS2022Page() {
 				/>
 			</div>
 
-			<main className="w-full px-20 py-16 bg-neutral-900">
+			<main className="w-full px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-neutral-900">
 				<Badge
 					variant="secondary"
 					className="bg-blue-500 text-white dark:bg-blue-600 mb-4"

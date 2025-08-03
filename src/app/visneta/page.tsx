@@ -13,7 +13,7 @@ export default function VisnetaPage() {
 				/>
 			</div>
 
-			<main className="w-full px-20 py-16 bg-neutral-900">
+			<main className="w-full px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-neutral-900">
 				{/* Title & Subtitle */}
 				<h1 className="text-3xl font-bold mb-2">Visneta</h1>
 				<p className="text-lg text-neutral-300 mb-6">

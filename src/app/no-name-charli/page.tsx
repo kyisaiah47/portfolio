@@ -15,7 +15,7 @@ export default function NoNameCharliPage() {
 				/>
 			</div>
 
-			<main className="w-full px-20 py-16 bg-neutral-900">
+			<main className="w-full px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-neutral-900">
 				<div className="flex flex-wrap gap-4 mb-4">
 					<Badge
 						variant="secondary"
