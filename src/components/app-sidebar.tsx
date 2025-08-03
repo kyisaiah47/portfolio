@@ -38,6 +38,7 @@ import {
 	BookA,
 	FolderCode,
 } from "lucide-react";
+import Image from "next/image";
 
 export function AppSidebar() {
 	return (
@@ -47,7 +48,14 @@ export function AppSidebar() {
 					<SidebarMenuItem>
 						<SidebarMenuButton asChild>
 							<a>
-								<User2 className="mr-2" />
+								{/* <User2 className="mr-2" /> */}
+								<Image
+									className="mr-2"
+									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/favicon.ico"
+									alt="logo"
+									width={20}
+									height={20}
+								/>
 								<span className="font-bold">Isaiah Kim</span>
 							</a>
 						</SidebarMenuButton>
