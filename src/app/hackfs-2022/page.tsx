@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function HackFS2022Page() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-black p-20">
+			<div className="flex justify-center bg-black p-25 pt-10">
 				<Image
-					className="w-full max-h-[550px] object-scale-down object-center"
+					className="w-full max-h-[600px] object-scale-down object-center"
 					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/MacBook%20Pro%2016_%20-%2022.png"
 					alt="KindredAI Screenshot"
 					width={1228}
