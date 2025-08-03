@@ -48,10 +48,9 @@ export function AppSidebar() {
 					<SidebarMenuItem>
 						<SidebarMenuButton asChild>
 							<a>
-								{/* <User2 className="mr-2" /> */}
 								<Image
 									className="mr-2"
-									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/favicon.ico"
+									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/logo-1"
 									alt="logo"
 									width={20}
 									height={20}
