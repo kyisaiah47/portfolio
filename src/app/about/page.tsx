@@ -1,11 +1,5 @@
 // components/AboutHero.tsx
-import {
-	AtSign,
-	IdCardLanyard,
-	MapPinned,
-	PiggyBank,
-	Sprout,
-} from "lucide-react";
+import { IdCardLanyard, PiggyBank, Sprout } from "lucide-react";
 import Image from "next/image";
 
 export default function About() {

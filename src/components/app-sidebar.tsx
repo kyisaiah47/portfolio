@@ -37,6 +37,8 @@ import {
 	HeartPlus,
 	ChartNoAxesCombined,
 	BanknoteArrowUp,
+	BookA,
+	FolderCode,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -120,6 +122,26 @@ export function AppSidebar() {
 										<Sprout />
 										<Construction />
 										<span>Visneta</span>
+									</a>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+						</SidebarMenu>
+					</SidebarGroupContent>
+				</SidebarGroup>
+				<SidebarSeparator />
+				<SidebarGroup>
+					<SidebarGroupLabel>Personal Projects</SidebarGroupLabel>
+					<SidebarGroupContent>
+						<SidebarMenu>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<a
+										href="/storybook"
+										className="flex items-center gap-2"
+									>
+										<BookA />
+										<FolderCode />
+										<span>Storybook Components</span>
 									</a>
 								</SidebarMenuButton>
 							</SidebarMenuItem>

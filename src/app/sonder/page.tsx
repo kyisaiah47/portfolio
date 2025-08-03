@@ -1,6 +1,6 @@
 // app/sonder/page.tsx or pages/sonder.tsx
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Globe, Twitter } from "lucide-react";
+import { ExternalLink, Github, Twitter } from "lucide-react";
 import Image from "next/image";
 
 export default function SonderPreview() {
