@@ -42,6 +42,7 @@ import {
 	BookA,
 	FolderCode,
 	LockKeyhole,
+	BadgeDollarSign,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -98,7 +99,7 @@ export function AppSidebar() {
 										className="flex items-center gap-2"
 									>
 										<Building2 />
-										<PiggyBank />
+										<BadgeDollarSign />
 										<span>SS&C Technologies</span>
 									</Link>
 								</SidebarMenuButton>
