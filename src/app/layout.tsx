@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
-import { AtSign, MapPinned } from "lucide-react";
+import { AtSign, ExternalLink, FileText, Github, Linkedin, MapPinned, Paperclip, ScrollText } from "lucide-react";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -43,8 +43,49 @@ export default function RootLayout({
 								<a className="flex items-center gap-2">
 									<MapPinned className="h-4 w-4" /> New York, NY
 								</a>
-								<a className="flex items-center gap-2">
+								{/* <a className="flex items-center gap-2">
 									<AtSign className="h-4 w-4" /> kyisaiah47@gmail.com
+								</a> */}
+
+								<a
+									target="_blank"
+									href="mailto:kyisaiah47@gmail.com"
+									className="flex items-center gap-2"
+								>
+									<AtSign className="h-4 w-4"/>
+									<span>kyisaiah47@gmail.com</span>
+								</a>
+								<a
+									target="_blank"
+									href="https://www.linkedin.com/in/kyisaiah47"
+									className="flex items-center gap-2"
+								>
+									<Linkedin className="h-4 w-4"/>
+									<span>LinkedIn</span>
+								</a>
+								<a
+									target="_blank"
+									href="https://github.com/kyisaiah47"
+									className="flex items-center gap-2"
+								>
+									<Github className="h-4 w-4"/>
+									<span>GitHub</span>
+								</a>
+								<a
+									target="_blank"
+									href="https://standardresume.co/r/kyisaiah47-resume"
+									className="flex items-center gap-2"
+								>
+									<Paperclip className="h-4 w-4"/>
+									<span>Resume</span>
+								</a>
+								<a
+									target="_blank"
+									href="https://standardresume.co/r/kyisaiah47-cv"
+									className="flex items-center gap-2"
+								>
+									<ScrollText className="h-4 w-4"/>
+									<span>CV</span>
 								</a>
 							</div>
 						</div>

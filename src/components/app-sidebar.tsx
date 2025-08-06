@@ -245,68 +245,6 @@ export function AppSidebar() {
 						</SidebarMenu>
 					</SidebarGroupContent>
 				</SidebarGroup>
-
-				<SidebarSeparator />
-
-				<SidebarGroup>
-					<SidebarGroupLabel>Contact</SidebarGroupLabel>
-					<SidebarGroupContent>
-						<SidebarMenu>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
-										target="_blank"
-										href="mailto:kyisaiah47@gmail.com"
-										className="flex items-center gap-2"
-									>
-										<AtSign />
-										<span>Email</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
-										target="_blank"
-										href="https://www.linkedin.com/in/kyisaiah47"
-										className="flex items-center gap-2"
-									>
-										<Linkedin />
-										<span>LinkedIn</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
-										target="_blank"
-										href="https://github.com/kyisaiah47"
-										className="flex items-center gap-2"
-									>
-										<Github />
-										<span>GitHub</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-							<SidebarMenuItem>
-								<SidebarMenuButton asChild>
-									<a
-										target="_blank"
-										href="https://standardresume.co/r/kyisaiah"
-										className="flex items-center gap-2"
-									>
-										<Paperclip />
-										<span>Resume</span>
-										<ExternalLink className="w-3 h-3 text-muted-foreground" />
-									</a>
-								</SidebarMenuButton>
-							</SidebarMenuItem>
-						</SidebarMenu>
-					</SidebarGroupContent>
-				</SidebarGroup>
 			</SidebarContent>
 			<SidebarFooter>
 				<div className="mt-auto text-xs text-muted-foreground">
