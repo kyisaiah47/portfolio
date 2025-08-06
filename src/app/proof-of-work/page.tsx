@@ -106,7 +106,7 @@ export default function ProofOfWorkPreview() {
 							Integrated zkTLS to generate tamper-proof attestations of completed work sessions.
 						</li>
 						<li>
-							Used XION's Mobile Dev Kit for seamless Web3 UX and wallet interactions.
+							Used XION&apos;s Mobile Dev Kit for seamless Web3 UX and wallet interactions.
 						</li>
 						<li>
 							Enabled trustless payment flows between clients and freelancers using on-chain smart contracts.
