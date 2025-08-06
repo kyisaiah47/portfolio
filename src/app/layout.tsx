@@ -39,55 +39,53 @@ export default function RootLayout({
 						<div className="flex items-center justify-between px-4 py-2 border-b border-neutral-800">
 							<SidebarTrigger />
 
-							<div className="flex items-center gap-4 text-xs">
-								<a className="flex items-center gap-2">
-									<MapPinned className="h-4 w-4" /> New York, NY
-								</a>
-								{/* <a className="flex items-center gap-2">
-									<AtSign className="h-4 w-4" /> kyisaiah47@gmail.com
-								</a> */}
-
-								<a
-									target="_blank"
-									href="mailto:kyisaiah47@gmail.com"
-									className="flex items-center gap-2"
-								>
-									<AtSign className="h-4 w-4"/>
-									<span>kyisaiah47@gmail.com</span>
-								</a>
-								<a
-									target="_blank"
-									href="https://www.linkedin.com/in/kyisaiah47"
-									className="flex items-center gap-2"
-								>
-									<Linkedin className="h-4 w-4"/>
-									<span>LinkedIn</span>
-								</a>
-								<a
-									target="_blank"
-									href="https://github.com/kyisaiah47"
-									className="flex items-center gap-2"
-								>
-									<Github className="h-4 w-4"/>
-									<span>GitHub</span>
-								</a>
-								<a
-									target="_blank"
-									href="https://standardresume.co/r/kyisaiah47-resume"
-									className="flex items-center gap-2"
-								>
-									<Paperclip className="h-4 w-4"/>
-									<span>Resume</span>
-								</a>
-								<a
-									target="_blank"
-									href="https://standardresume.co/r/kyisaiah47-cv"
-									className="flex items-center gap-2"
-								>
-									<ScrollText className="h-4 w-4"/>
-									<span>CV</span>
-								</a>
+						<div className="flex items-center gap-4 text-xs">
+							<div className="flex items-center gap-2">
+								<MapPinned className="h-4 w-4 hidden lg:inline" />
+								<span className="hidden lg:inline">New York, NY</span>
 							</div>
+							<a
+								target="_blank"
+								href="mailto:kyisaiah47@gmail.com"
+								className="flex items-center gap-2"
+							>
+								<AtSign className="h-4 w-4" />
+								<span className="hidden md:inline">kyisaiah47@gmail.com</span>
+							</a>
+							<a
+								target="_blank"
+								href="https://www.linkedin.com/in/kyisaiah47"
+								className="flex items-center gap-2"
+							>
+								<Linkedin className="h-4 w-4" />
+								<span className="hidden md:inline">LinkedIn</span>
+							</a>
+							<a
+								target="_blank"
+								href="https://github.com/kyisaiah47"
+								className="flex items-center gap-2"
+							>
+								<Github className="h-4 w-4" />
+								<span className="hidden md:inline">GitHub</span>
+							</a>
+							<a
+								target="_blank"
+								href="https://standardresume.co/r/kyisaiah47-resume"
+								className="flex items-center gap-2"
+							>
+								<Paperclip className="h-4 w-4" />
+								<span className="hidden md:inline">Resume</span>
+							</a>
+							<a
+								target="_blank"
+								href="https://standardresume.co/r/kyisaiah47-cv"
+								className="flex items-center gap-2"
+							>
+								<ScrollText className="h-4 w-4" />
+								<span className="hidden md:inline">CV</span>
+							</a>
+							</div>
+
 						</div>
 						{children}
 					</main>
