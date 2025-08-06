@@ -41,6 +41,7 @@ import {
 	BanknoteArrowUp,
 	BookA,
 	FolderCode,
+	LockKeyhole,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -182,6 +183,18 @@ export function AppSidebar() {
 					<SidebarGroupLabel>Hackathons</SidebarGroupLabel>
 					<SidebarGroupContent>
 						<SidebarMenu>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<Link
+										href="/proof-of-work"
+										className="flex items-center gap-2"
+									>
+										<LockKeyhole />
+										<Smartphone />
+										<span>Proof of Concept 2025</span>
+									</Link>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<Link
