@@ -19,6 +19,7 @@ export default function VisnetaPage() {
 				<p className="text-lg text-neutral-300 mb-6">
 					Home Services Platform & Real-Time Dashboards
 				</p>
+
 				{/* Info Row */}
 				<div className="flex flex-wrap gap-8 mb-8">
 					<div>
@@ -38,10 +39,11 @@ export default function VisnetaPage() {
 							Leveraged Skills
 						</div>
 						<div className="text-sm">
-							Vue.js, PHP (CodeIgniter), MySQL, Figma, REST APIs
+							React, Node.js, MySQL, Figma, REST APIs
 						</div>
 					</div>
 				</div>
+
 				{/* Problem Section */}
 				<div className="mb-6">
 					<h2 className="font-semibold text-lg mb-2 text-white">Problem</h2>
@@ -51,14 +53,15 @@ export default function VisnetaPage() {
 						roles.
 					</p>
 				</div>
+
 				{/* Solution Section */}
 				<div className="mb-6">
 					<h2 className="font-semibold text-lg mb-2 text-white">Solution</h2>
 					<ul className="list-disc pl-6 space-y-2 text-neutral-300">
 						<li>
-							Built a Fiverr-style platform for home services using Vue.js and
-							PHP, enabling homeowners to request repairs, track progress, and
-							manage properties through real-time dashboards.
+							Built a Fiverr-style platform for home services using React and
+							Node.js, enabling homeowners to request repairs, track progress,
+							and manage properties through real-time dashboards.
 						</li>
 						<li>
 							Developed role-specific experiences for homeowners, property
