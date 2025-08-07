@@ -43,6 +43,8 @@ import {
 	FolderCode,
 	LockKeyhole,
 	BadgeDollarSign,
+	Phone,
+	Mail,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -52,10 +54,7 @@ export function AppSidebar() {
 				<SidebarMenu>
 					<SidebarMenuItem>
 						<SidebarMenuButton asChild>
-							<Link
-								href="/"
-								className="flex items-center gap-2"
-							>
+							<div className="flex items-center gap-2">
 								<Image
 									className="mr-2"
 									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/logo-1"
@@ -64,7 +63,7 @@ export function AppSidebar() {
 									height={20}
 								/>
 								<span className="font-bold">Isaiah Kim</span>
-							</Link>
+							</div>
 						</SidebarMenuButton>
 					</SidebarMenuItem>
 				</SidebarMenu>
@@ -82,6 +81,14 @@ export function AppSidebar() {
 									</Link>
 								</SidebarMenuButton>
 							</SidebarMenuItem>
+							{/* <SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<div>
+										<Mail />
+										<span>kyisaiah47@gmail.com</span>
+									</div>
+								</SidebarMenuButton>
+							</SidebarMenuItem> */}
 						</SidebarMenu>
 					</SidebarGroupContent>
 				</SidebarGroup>
