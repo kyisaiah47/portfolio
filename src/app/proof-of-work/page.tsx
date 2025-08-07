@@ -6,10 +6,10 @@ import Image from "next/image";
 export default function ProofOfWorkPreview() {
 	return (
 		<div className="flex flex-col min-h-screen bg-neutral-950 text-white">
-			<div className="flex justify-center bg-[#E3D9FF]">
+			<div className="flex justify-center bg-[#EDEDED]">
 				<Image
-					className="w-full max-h-[700px] object-cover object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/proof-of-work-cover"
+					className="w-full max-h-[700px] object-scale-down object-center"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/file%20cover%20-%201.png"
 					alt="Proof of Work Screenshot"
 					width={1228}
 					height={768}
