@@ -9,7 +9,7 @@ export default function ProofOfWorkPreview() {
 			<div className="flex justify-center bg-[#E3D9FF]">
 				<Image
 					className="w-full max-h-[700px] object-scale-down object-center"
-					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/proof-of-work"
+					src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/proof-of-work-cover"
 					alt="Proof of Work Screenshot"
 					width={1228}
 					height={768}
@@ -58,7 +58,8 @@ export default function ProofOfWorkPreview() {
 					Proof of Concept Hackathon: Proof of Work
 				</h1>
 				<p className="text-lg text-neutral-300 mb-6">
-					A mobile-first freelance platform with zkTLS proof and on-chain payments to restore trust in remote work.
+					A mobile-first freelance platform with zkTLS proof and on-chain
+					payments to restore trust in remote work.
 				</p>
 
 				{/* Info Row */}
@@ -80,7 +81,8 @@ export default function ProofOfWorkPreview() {
 							Leveraged Skills
 						</div>
 						<div className="text-sm">
-							React Native, Expo, zkTLS, XION SDK, Tailwind, Web3 Auth, On-chain Payments
+							React Native, Expo, zkTLS, XION SDK, Tailwind, Web3 Auth, On-chain
+							Payments
 						</div>
 					</div>
 				</div>
@@ -89,9 +91,10 @@ export default function ProofOfWorkPreview() {
 				<div className="mb-6">
 					<h2 className="font-semibold text-lg mb-2 text-white">Problem</h2>
 					<p className="text-base text-neutral-300">
-						Freelancers and clients struggle with trust in remote work agreements.
-						Deliverables can’t always be verified, payments are delayed or withheld,
-						and platforms take excessive fees without solving these issues.
+						Freelancers and clients struggle with trust in remote work
+						agreements. Deliverables can’t always be verified, payments are
+						delayed or withheld, and platforms take excessive fees without
+						solving these issues.
 					</p>
 				</div>
 
@@ -100,19 +103,24 @@ export default function ProofOfWorkPreview() {
 					<h2 className="font-semibold text-lg mb-2 text-white">Solution</h2>
 					<ul className="list-disc pl-6 space-y-2 text-neutral-300">
 						<li>
-							Built a mobile-native dApp to match freelance jobs with crypto payments and zero-knowledge work proofs.
+							Built a mobile-native dApp to match freelance jobs with crypto
+							payments and zero-knowledge work proofs.
 						</li>
 						<li>
-							Integrated zkTLS to generate tamper-proof attestations of completed work sessions.
+							Integrated zkTLS to generate tamper-proof attestations of
+							completed work sessions.
 						</li>
 						<li>
-							Used XION&apos;s Mobile Dev Kit for seamless Web3 UX and wallet interactions.
+							Used XION&apos;s Mobile Dev Kit for seamless Web3 UX and wallet
+							interactions.
 						</li>
 						<li>
-							Enabled trustless payment flows between clients and freelancers using on-chain smart contracts.
+							Enabled trustless payment flows between clients and freelancers
+							using on-chain smart contracts.
 						</li>
 						<li>
-							Polished UI with Tailwind, custom animations, and clean tabbed navigation (e.g. jobs, proofs, payments).
+							Polished UI with Tailwind, custom animations, and clean tabbed
+							navigation (e.g. jobs, proofs, payments).
 						</li>
 					</ul>
 				</div>
