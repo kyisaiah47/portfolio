@@ -1,21 +1,24 @@
-Isaiah’s Dev Portfolio (Next.js + Tailwind)
-Live Demo: kyisaiah47.vercel.app
+# Isaiah Kim — Developer Portfolio
 
-Overview
-This is a modern, responsive development portfolio built with Next.js, styled using Tailwind CSS and flowbite-react. It showcases my resume (also included as a PDF), featured projects, and UI design capabilities—with an emphasis on performance and clean aesthetics.
+[Live Demo](https://kyisaiah47.vercel.app)
 
-Built With
-Next.js (TypeScript) — for server-side rendering, routing, and React performance
+A modern, minimal portfolio site built with [Next.js](https://nextjs.org/) (TypeScript), [Tailwind CSS](https://tailwindcss.com/), and [flowbite-react](https://flowbite.com/docs/components/). This site highlights my projects, skills, and resume—all in a performant, mobile-friendly package.
 
-Tailwind CSS — for efficient, utility-first styling
+---
 
-flowbite‑react — for accessible UI components and design consistency
+## ✨ Features
 
-Features
-Fully responsive layout across desktop and mobile
+- **Responsive Design**: Optimized for desktop, tablet, and mobile
+- **Clean UI**: Built with Tailwind CSS & flowbite-react for sleek, accessible components
+- **PDF Resume**: Download or view my resume directly from the site
+- **Easy Customization**: Modular code structure for quick updates
+- **Deployed with Vercel**: Fast global CDN and zero-config deployment
 
-Clean, modern design with fast load times
+---
 
-Embedded resume (PDF) for accessibility
+## 🛠️ Built With
 
-Easily extensible for showcasing projects or blog posts
+- [Next.js](https://nextjs.org/) (with TypeScript)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [flowbite-react](https://flowbite.com/docs/components/)
+- [Vercel](https://vercel.com/) (for deployment)
