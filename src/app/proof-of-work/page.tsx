@@ -51,6 +51,15 @@ export default function ProofOfWorkPreview() {
 							GitHub Repo
 						</a>
 					</Badge>
+					<Badge variant="secondary">
+						<Github />
+						<a
+							href="https://github.com/kyisaiah47/proof-of-work-contract"
+							target="_blank"
+						>
+							Contract Repo
+						</a>
+					</Badge>
 				</div>
 
 				{/* Title & Subtitle */}
