@@ -194,6 +194,18 @@ export function AppSidebar() {
 							<SidebarMenuItem>
 								<SidebarMenuButton asChild>
 									<Link
+										href="/meditongue"
+										className="flex items-center gap-2"
+									>
+										<Brain />
+										<Smartphone />
+										<span>OpenAI Open Model Hackathon 2025</span>
+									</Link>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+							<SidebarMenuItem>
+								<SidebarMenuButton asChild>
+									<Link
 										href="/proof-of-work"
 										className="flex items-center gap-2"
 									>
