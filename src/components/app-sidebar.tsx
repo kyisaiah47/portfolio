@@ -16,19 +16,13 @@ import {
 	SidebarSeparator,
 } from "@/components/ui/sidebar";
 import {
-	User2,
-	ExternalLink,
 	CircleUser,
-	AtSign,
-	Linkedin,
-	Paperclip,
 	Sprout,
 	Building2,
 	Landmark,
 	Construction,
 	Images,
 	IdCardLanyard,
-	PiggyBank,
 	Trophy,
 	Medal,
 	UsersRound,
@@ -43,8 +37,7 @@ import {
 	FolderCode,
 	LockKeyhole,
 	BadgeDollarSign,
-	Phone,
-	Mail,
+	Stethoscope,
 } from "lucide-react";
 
 export function AppSidebar() {
@@ -198,7 +191,7 @@ export function AppSidebar() {
 										className="flex items-center gap-2"
 									>
 										<Brain />
-										<Smartphone />
+										<Stethoscope />
 										<span>OpenAI Open Model Hackathon 2025</span>
 									</Link>
 								</SidebarMenuButton>
