@@ -26,13 +26,13 @@ export default function VisnetaPage() {
 						<div className="text-xs uppercase text-neutral-400 mb-1">
 							Timeline
 						</div>
-						<div className="text-sm">Sep 2019 - May 2021</div>
+						<div className="text-sm">Jul 2018 - May 2021</div>
 					</div>
 					<div>
 						<div className="text-xs uppercase text-neutral-400 mb-1">
 							Role / Context
 						</div>
-						<div className="text-sm">Junior Software Engineer</div>
+						<div className="text-sm">Software Engineer</div>
 					</div>
 					<div>
 						<div className="text-xs uppercase text-neutral-400 mb-1">

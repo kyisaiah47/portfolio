@@ -168,8 +168,8 @@ export default function About() {
 					<TeamRow
 						logo={<Sprout />}
 						company="Visneta"
-						title="Junior Software Engineer"
-						year="2019-2021"
+						title="Software Engineer"
+						year="2018-2021"
 					/>
 				</div>
 
