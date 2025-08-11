@@ -50,7 +50,7 @@ export function AppSidebar() {
 							<div className="flex items-center gap-2">
 								<Image
 									className="mr-2"
-									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/logo-1"
+									src="https://hvnbpd9agmcawbt2.public.blob.vercel-storage.com/Hourglass.png"
 									alt="logo"
 									width={20}
 									height={20}
