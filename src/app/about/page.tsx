@@ -173,9 +173,9 @@ export default function About() {
 					/>
 				</div>
 
-				<div className="mt-12 space-y-4 border-t border-white/10 pt-6">
+				{/* <div className="mt-12 space-y-4 border-t border-white/10 pt-6">
 					{Timeline3PerRow({ data: items })}
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
