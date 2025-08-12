@@ -79,19 +79,11 @@ export default function RootLayout({
 								</a>
 								<a
 									target="_blank"
-									href="https://standardresume.co/r/kyisaiah47-resume"
+									href="https://github.com/kyisaiah47/resume/blob/main/main.pdf"
 									className="flex items-center gap-2"
 								>
 									<Paperclip className="h-4 w-4" />
 									<span className="hidden">Resume</span>
-								</a>
-								<a
-									target="_blank"
-									href="https://standardresume.co/r/kyisaiah47-cv"
-									className="flex items-center gap-2"
-								>
-									<ScrollText className="h-4 w-4" />
-									<span className="hidden">CV</span>
 								</a>
 							</div>
 						</div>
