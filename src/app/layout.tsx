@@ -79,7 +79,7 @@ export default function RootLayout({
 								</a>
 								<a
 									target="_blank"
-									href="https://github.com/kyisaiah47/resume/blob/main/main.pdf"
+									href="https://github.com/kyisaiah47/resume/blob/main/Isaiah_Kim_Resume.pdf"
 									className="flex items-center gap-2"
 								>
 									<Paperclip className="h-4 w-4" />
