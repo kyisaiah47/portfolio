@@ -5,6 +5,7 @@ import { IdCardLanyard, PiggyBank, Sprout } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+// About
 export default function About() {
 	type TimelineItem = {
 		title: string;
@@ -122,7 +123,7 @@ export default function About() {
 	}
 
 	return (
-		<motion.section 
+		<motion.section
 			className="bg-neutral-900 text-white min-h-screen py-16 px-6 md:px-12"
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
@@ -130,7 +131,7 @@ export default function About() {
 		>
 			<div className="mx-auto">
 				{/* Profile */}
-				<motion.div 
+				<motion.div
 					className="flex items-start gap-4 mb-8"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
@@ -155,13 +156,13 @@ export default function About() {
 						animate={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.6, delay: 0.4, ease: [0.4, 0, 0.2, 1] }}
 					>
-						<motion.h1 
+						<motion.h1
 							className="text-2xl md:text-3xl font-bold leading-tight"
 							whileHover={{ color: "#175CD3", transition: { duration: 0.2 } }}
 						>
 							Senior software engineer with front end focus.
 						</motion.h1>
-						<motion.p 
+						<motion.p
 							className="mt-2 text-white/80"
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
@@ -171,7 +172,7 @@ export default function About() {
 							<br />
 							Interested in web3 and AI. Active in hackathons.
 						</motion.p>
-						<motion.p 
+						<motion.p
 							className="mt-2 text-white/60"
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
@@ -183,7 +184,7 @@ export default function About() {
 				</motion.div>
 
 				{/* Team Section */}
-				<motion.div 
+				<motion.div
 					className="mt-12 space-y-4 border-t border-white/10 pt-6"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
@@ -259,26 +260,26 @@ function TeamRow({
 	year: string;
 }) {
 	return (
-		<motion.div 
+		<motion.div
 			className="flex items-center justify-between"
-			whileHover={{ 
-				x: 5, 
+			whileHover={{
+				x: 5,
 				backgroundColor: "rgba(23, 92, 211, 0.05)",
-				transition: { duration: 0.2 } 
+				transition: { duration: 0.2 },
 			}}
 		>
 			<div className="flex items-center gap-4">
 				<motion.div
-					whileHover={{ 
-						scale: 1.1, 
+					whileHover={{
+						scale: 1.1,
 						color: "#175CD3",
-						transition: { duration: 0.2 } 
+						transition: { duration: 0.2 },
 					}}
 				>
 					{logo}
 				</motion.div>
 				<div>
-					<motion.p 
+					<motion.p
 						className="font-medium"
 						whileHover={{ color: "#175CD3", transition: { duration: 0.2 } }}
 					>
