@@ -5,6 +5,7 @@ import { IdCardLanyard, PiggyBank, Sprout } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+// About
 export default function About() {
 	type TimelineItem = {
 		title: string;
