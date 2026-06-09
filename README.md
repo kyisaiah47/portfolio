@@ -1,24 +1,39 @@
-# Isaiah Kim — Developer Portfolio
+<div align="center">
 
-[Live Demo](https://kyisaiah47.vercel.app)
+# Isaiah Kim — Portfolio
 
-A modern, minimal portfolio site built with [Next.js](https://nextjs.org/) (TypeScript), [Tailwind CSS](https://tailwindcss.com/), and [flowbite-react](https://flowbite.com/docs/components/). This site highlights my projects, skills, and resume—all in a performant, mobile-friendly package.
+**Personal portfolio built with Next.js and Tailwind CSS**
 
----
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-kyisaiah47.vercel.app-black?style=flat-square&logo=vercel&logoColor=white)](https://kyisaiah47.vercel.app) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+</div>
+
+<br/>
+
+A modern, minimal developer portfolio showcasing projects, skills, and a downloadable resume. Built for performance and accessibility with a clean, mobile-first design — deployed globally on Vercel.
 
 ## ✨ Features
 
-- **Responsive Design**: Optimized for desktop, tablet, and mobile
-- **Clean UI**: Built with Tailwind CSS & flowbite-react for sleek, accessible components
-- **PDF Resume**: Download or view my resume directly from the site
-- **Easy Customization**: Modular code structure for quick updates
-- **Deployed with Vercel**: Fast global CDN and zero-config deployment
+- **Responsive Design** — Optimized for desktop, tablet, and mobile viewports
+- **Sleek UI** — Accessible components via Tailwind CSS and Flowbite React
+- **Project Highlights** — Curated showcase of selected work
+- **PDF Resume** — Download or view resume directly from the site
+- **Mobile-First** — Fluid layout that looks great on any screen size
+- **Vercel Deployment** — Fast global CDN with zero-config CI/CD
 
----
+## 🛠️ Tech Stack
 
-## 🛠️ Built With
+Next.js · TypeScript · Tailwind CSS · Flowbite React · Vercel
 
-- [Next.js](https://nextjs.org/) (with TypeScript)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [flowbite-react](https://flowbite.com/docs/components/)
-- [Vercel](https://vercel.com/) (for deployment)
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📄 License
+
+MIT
